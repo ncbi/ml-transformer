@@ -1,0 +1,12 @@
+data: DATASET_PATH
+checkpoint_path: CHECK_POINT_PATH
+bert_pretrained_dir: BERT_PATH
+
+max_epoch: 50
+batch_size: 16
+earlystop: 2
+workers: 10
+lr: 2.0e-5 
+do_lower_case: true
+seq_length: 512
+seed: 1000
